@@ -150,7 +150,7 @@ body{
 }
 
 .hidding{
-   width: 400px;
+   width: 350px;
 }
 .size{
    font-size: 25px;
@@ -211,9 +211,9 @@ media quearys --------------*/
 @media only screen and (min-width:688px) and (max-width:950px) {
    
 
-   .container{
-      align-items: stretch;
+   .section{ 
       flex-direction: column;
+   
       
    }
 
