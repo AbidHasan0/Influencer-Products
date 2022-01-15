@@ -105,9 +105,13 @@ body{
 .fa-star.empty{
    color: #AEAEAE;
 }
-.rate{
-   margin-left: 10px;
-   font-size: 15px;
+.anchor a{
+   margin-left: 84%;
+   text-decoration: none;
+   color:#E02C6D;
+   
 }
-
+.fa-long-arrow-alt-right{
+   margin-left: 5px;
+}
 
