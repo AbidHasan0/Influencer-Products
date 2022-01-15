@@ -14,8 +14,10 @@ body{
    align-items: center;
 }
 .header-texts{
+   font-size: 40px;
    text-align: center;
    color:#E02C6D
+   
    
    
 }
@@ -24,7 +26,7 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 30px;
+   margin-top: 50px;
 
    
 }
@@ -42,20 +44,35 @@ body{
 .photo img{
    width: 440px;
    margin-left: 40px;
+   transition: 0.4s ease-in-out;
+   
 }
+.photo img:hover{
+   transform: scale(0.5) rotate(180deg);
+}
+
+
+
 .button{
+   padding: 10px;
    background-color: #E02C6D;
-   border: 2px #FFFFFF;
    border-radius: 10px;
-   padding: 5px;
-   color: #FFFFFF;
-   margin-top: 8px;
+   margin-top: 10px;
+   color: #ffffff;
+
+   
+   
+ 
+  
 }
+
 /* second-part */
 .section-title{
    font-size: 34px;
    text-align: center;
+   margin-top: 20px;
 }
+
  
   .collection{
      display: flex;
@@ -114,7 +131,7 @@ body{
 .fa-long-arrow-alt-right{
    margin-left: 5px;
 }
-/* forth-paet */
+/* third-part */
 
 
 .heading-part{
@@ -128,8 +145,10 @@ body{
 .container img{
    width:500px;
    height: 400px;
+   
 
 }
+
 .hidding{
    width: 610px;
 }
@@ -137,6 +156,7 @@ body{
    font-size: 25px;
    color:#0A0826;
 }
+
 /* -----------------------------
 ------------last part---------------- */
 .last-part{
