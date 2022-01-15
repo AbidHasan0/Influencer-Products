@@ -114,4 +114,40 @@ body{
 .fa-long-arrow-alt-right{
    margin-left: 5px;
 }
+/* forth-paet */
+
+
+.heading-part{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   
+   
+ 
+}
+.container img{
+   width:500px;
+   height: 400px;
+
+}
+.hidding{
+   width: 610px;
+}
+.size{
+   font-size: 25px;
+   color:#0A0826;
+}
+/* -----------------------------
+------------last part---------------- */
+.last-part{
+   background-color:#0A0826; 
+   text-align: center;
+   color: white;
+   margin: 10px;
+   padding: 20px;
+}
+.fa-youtube, .fa-instagram, .fa-twitter-square{
+   color: #ffffff;
+   padding: 5px;
+}
 
